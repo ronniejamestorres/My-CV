@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(61, 61, 61) 0%, rgb(54, 54, 54) 100%);
+    padding: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+   
+
+    
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+
+    
+}
+
+.flex-item-left {
+   
+    background-color:  rgb(32, 32, 32);
+    padding: 40px;
+    flex: 30%;
+    border-radius: 10px;
+
+
+}
+
+
+
+.flex-item-left h1 {
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 5px solid  rgb(255, 196, 33);
+    height: 50px;
+}
+
+.flex-item-left p {
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.flex-item-left ul {
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.flex-item-expo1 li{
+ 
+    padding: 20px;
+    flex: 30%;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    list-style-type: none;
+    
+}
+
+.flex-item-expo1  li:last-child {
+    margin-bottom: 10px;
+   }
+
+.flex-item-left .profilePic {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.flex-item-left .iconPic {
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.flex-item-right {
+    background-color: #fff;
+    padding: 40px;
+    flex: 70%;
+    border-radius: 10px;
+
+}
+
+.flex-item-right h1 {
+    text-align: left;
+    font-size: 30px;
+    color:  rgb(32, 32, 32);
+    background-color: rgb(255, 196, 33);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.flex-item-right h2 {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid  rgb(255, 196, 33);
+    height: 50px;
+}
+
+.flex-item-right p {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+
+}
+
+.flex-item-exp1 li{
+    background-color: #fff;
+    padding: 20px;
+    flex: 30%;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+}
+
+.flex-item-exp1  li:last-child {
+    margin-bottom: 10px;
+   }
+
+   .flex-item-exp2 li{
+    background-color: #fff;
+    padding: 20px;
+    flex: 30%;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+
+}
+
+.flex-item-exp2  li:last-child {
+    margin-bottom: 10px;
+   }
+
+
+.flex-item-right img {
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.flex-item-right a {
+   color: rgb(0, 0, 0);
+  
+}
+
+.flex-item-html {
+    background-color: rgb(255, 196, 33);
+    padding: 40px;
+    flex: 40%;
+    border-radius: 10px;
+    
+
+}
+
+.flex-item-css {
+    background-color: rgb(255, 219, 122);
+    padding: 40px;
+    flex: 40%;
+    border-radius: 10px;
+    
+}
+
+.flex-item-js {
+    background-color: rgb(255, 240, 197);
+    padding: 40px;
+    flex: 20%;
+    border-radius: 10px;
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(0, 0, 0);
+    font-size:x-large;
+  }
+
+
+
+
+ 
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
